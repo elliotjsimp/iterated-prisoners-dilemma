@@ -1,0 +1,3 @@
+- Could allowing a greater variety of moves in an IPD-style game (e.g. “light-defect”, “strong-cooperate”) lead to more complex or realistic strategic behavior?
+- If so, what would the corresponding payoff matrix look like? Would it remain two-dimensional, or become higher-dimensional to accommodate the new choices? Or might it be dynamic, perhaps relevant to game history and/or other factors?
+- It is quite likely that all of this has already been figured out.
