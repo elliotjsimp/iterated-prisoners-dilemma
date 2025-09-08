@@ -7,7 +7,7 @@ This project simulates the Iterated Prisoner's Dilemma (IPD) with a variety of s
 Learn more about the Prisoner's Dilemma on [Wikipedia](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma).
 
 ## Why I Built This
-> I created this project to deepen my understanding of game theory, strategy design, and Python software architecture. The Iterated Prisoner's Dilemma is a classic problem that offers rich opportunities for exploring algorithmic decision-making and most notably, emergent behavior!
+> I created this project to deepen my understanding of game theory, strategy design, and Python software architecture. The Iterated Prisoner's Dilemma is a classic problem that offers rich opportunities for exploring algorithmic decision-making and most notably (and excitingly, to me), emergent behavior!
 
 ## What I Learned
 > Through this project, I learned about designing extensible systems, implementing and testing a variety of algorithms, and managing user interaction in a command-line application. I also gained experience with Python's OOP features and best practices for code organization.
@@ -23,7 +23,7 @@ Learn more about the Prisoner's Dilemma on [Wikipedia](https://en.wikipedia.org/
 2. Open a terminal in this project directory
 3. Run:
    ```
-   python3 ipd-project.py
+   python3 main.py
    ```
 4. Follow the prompts to select game mode, strategies, and number of rounds
 
@@ -60,7 +60,7 @@ Strategies.register("mystrategy", MyStrategy)
 ```
 
 ## Files
-- `ipd-project.py`: Main entry point (CLI), handles user interaction and game/tournament setup.
+- `main.py`: Main entry point (CLI), handles user interaction and game/tournament setup.
 - `game.py`: Game logic for a single match between two strategies.
 - `tournament.py`: Tournament logic for round-robin play between all strategies.
 - `strategies.py`: All strategy definitions, base class, and registration system.
@@ -68,7 +68,6 @@ Strategies.register("mystrategy", MyStrategy)
 - `payoff.py`: Defines the payoff matrix and values for the game.
 - `messages.py`: Centralized static messages for user prompts and errors.
 - `test_strategies.py`: Unit tests for strategies and game logic.
-- `requirements.txt`: Project requirements (Python 3.x, no external dependencies).
 - `NOTES.md`: Personal ramblings.
 
 ## License
