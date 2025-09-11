@@ -3,6 +3,7 @@ Game logic for the Iterated Prisoner's Dilemma.
 Handles a single game between two strategies.
 """
 
+import time
 from context import Context
 from payoff import Payoff
 from messages import Messages
@@ -86,6 +87,7 @@ class Game:
 
             if want_see_rounds == "Y":
                 for i, r in enumerate(self.history, start=1):
+                    time.sleep(0.02525)
                     print("")
                     print("-" * 25)
                     print(f"\nRound {i}:")
