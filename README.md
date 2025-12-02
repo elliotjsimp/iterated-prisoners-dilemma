@@ -7,7 +7,7 @@ This project simulates the Iterated Prisoner's Dilemma (IPD) with a variety of s
 Learn more about the Prisoner's Dilemma on [Wikipedia](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma).
 
 ## Why I Built This
-> I created this project to deepen my understanding of game theory, strategy design, and Python software architecture. The Iterated Prisoner's Dilemma is a classic problem that offers rich opportunities for exploring algorithmic decision-making and most notably (and excitingly, to me), emergent behavior!
+> I created this project to deepen my understanding of game theory, strategy design, and Python software architecture. The Iterated Prisoner's Dilemma is a classic problem that offers rich opportunities for exploring algorithmic decision-making and most notably (and excitingly, to me), emergent behavior (in a sense)!
 
 ## What I Learned
 > Through this project, I learned about designing extensible systems, implementing and testing a variety of algorithms, and managing user interaction in a command-line application. I also gained experience with Python's OOP features and best practices for code organization.
