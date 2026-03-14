@@ -12,8 +12,6 @@ Learn more about the Prisoner's Dilemma on [Wikipedia](https://en.wikipedia.org/
 - Choose the number of rounds in a game
 - Extensible: add your own strategies easily
 
-4. Follow the prompts to select game mode, strategies, and number of rounds
-
 ## Strategies Included
 - AlwaysCooperate
 - AlwaysDefect
